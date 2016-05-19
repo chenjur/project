@@ -1,5 +1,6 @@
 body {
-	overflow-x: hidden;
+	width: 100%;
+	overflow-x: scroll;
 	overflow-y: scroll;
 }
 #nav {
@@ -42,9 +43,23 @@ body {
 }
 .container2 {
 	margin-bottom: 50px;
-	margin-left: 20px;
-
+	width: 100%;
 }
+
+div.img {
+	
+	margin: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 100%;
+	display: inline-block;
+}
+
+div.img:hover {
+
+	border: 1px solid #777;
+}
+
 
 #contact {
 
@@ -64,31 +79,7 @@ body {
 }
 
 
-.img {
 
-	
-	border: 1px solid #ccc;
-	float: left;
-	width: 30%;
-}
-
-div.img:hover {
-
-	border: 1px solid #777;
-}
-
-div.img img {
-
-	width: 100%;
-	
-}
-
-div.desc {
-	background-color: #e6e6e6;
-	padding: 15px;
-	text-align: center;
-	color: black;
-}
 
 
 .icons {
@@ -98,31 +89,5 @@ div.desc {
 }
 
 
-#thumbwrap{
-	width: 100%;
-	margin-left: 20px;
-	margin-bottom: 30px;
-}
-			
-.thumb {
-	float:left; /* must be floated for same cross browser position of larger image */
-	position:relative;
-	margin:10px 10px 20px 10px;
-}
-.thumb img { 
-	border:1px solid #000;
-	display: block;
-}
-.thumb:hover {
-	border:0; /* IE6 needs this to show large image */
-	z-index:1;
-}
-.thumb span { 
-	position:absolute;
-	visibility:hidden;
-}
-.thumb:hover span { 
-	visibility:visible;
-	top:37px; left:37px; 
-	
-}
+
+
