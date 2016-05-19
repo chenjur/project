@@ -48,9 +48,9 @@ body {
 
 div.img {
 
-	margin: 10px;
+	margin: 10px ;
 	border: 1px solid #ccc;
-	float: left;
+	float: right;
 	width: 100%;
 	display: inline-block;
 }
