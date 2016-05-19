@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css" />
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js">
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+
+		<style type="text/css">
+			body {
+				background-color: #ADD8E6;
+			}
+
+			.h1 {
+				color: blue;
+				font-family: verdana;
+				text-align: center;
+				background-color: #bada55;
+				opacity: 0.6;
+				padding-top: 50px;
+    			padding-right: 30px;
+                padding-bottom: 50px;
+    			padding-left: 80px;
+
+    			width: 1150px;
+    			border-radius: 15px;
+				
+				
+			}
+
+
+
+			
+		ul {
+    			list-style-type: none;
+   	            margin: 0;
+    			padding: 0;
+    			background-color: #dddddd;
+    			border-radius: 15px;
+    			overflow: hidden;
+
+}
+
+			li{
+				float: left;
+				
+
+}
+
+			li a{
+				
+				text-align: center;
+				text-transform: capitalize;
+				display: block;
+				color: black;
+				background-color: #dddddd;
+				text-decoration: none;
+				padding: 14px 16px;
+
+
+}
+
+			li a.active {
+				background-color: #4CAF50;
+				color: white;
+				text-decoration: none;
+}
+
+			li a:hover:not(.active) {
+				background-color: #555;
+				color: white;
+				text-decoration: none;
+}
+
+			.active{
+				background-color: #4CAF50;
+}
+
+
+			
+		
+			}
+
+			.news{
+						float: right;
+						background-color: gray;
+						width: 350px;
+						padding: 20px;
+						border-radius: 15px;
+			}
+			
+			
+		</style>	
+
+		<script type="text/javascript">
+				$( document ).ready(function){
+
+					$(".dropdown-button").dropdown();
+				}
+		</script>
+	</head>
+
+
+	<body>
+				<div class="transbox">
+					<h1 class="h1">This is title</h1>
+				</div>
+
+		
+		
+		<nav>
+   			 <div class="nav-wrapper">
+      			
+      			<!-- Dropdown Structure -->
+			<ul id="dropdown1" class="dropdown-content">
+				 <li><a href="#!">one</a></li>
+ 				 <li><a href="#!">two</a></li>
+ 				 <li class="divider"></li>
+ 				 <li><a href="#!">three</a></li>
+			</ul>
+		<nav>
+ 			 <div class="nav-wrapper">
+   				 <a href="#!" class="brand-logo">Logo</a>
+
+   			 <ul class="right hide-on-med-and-down">
+     			 <li><a href="sass.html">Sass</a></li>
+      			<li><a href="badges.html">Components</a></li>
+      <!-- Dropdown Trigger -->
+      			<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+    		</ul>
+  			</div>
+		</nav>
+        
+   			 </div>
+ 	    </nav>
+
+  			<iframe width="800" height="*" src="home.htm" name="iframe a"></iframe>
+
+					<p><a href="home.htm" target="iframe a">click here</a></p>
+			<div class="news">
+					<p>This are is for news. like what is actually happening inside tibet and all.</p>
+			</div>
+
+        
+
+
+	</body>
+</html>

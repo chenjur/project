@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+body {
+	width: 100%;
+}
+#thumbwrap{
+	width: 100%;
+	margin-left: 90px;
+}
+			
+.thumb {
+	float:left; /* must be floated for same cross browser position of larger image */
+	position:relative;
+	margin:10px;
+}
+.thumb img { 
+	border:1px solid #000;
+	display: block;
+}
+.thumb:hover {
+	border:0; /* IE6 needs this to show large image */
+	z-index:1;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover span { 
+	visibility:visible;
+	top:37px; left:37px; 
+}
+		
+	</style>
+</head>
+<body>
+
+	<div id="thumbwrap" >
+<a class="thumb" href="file:///C:/Users/JMD1/Desktop/project/final%20project.htm" target="_blank"><img src="print1.png" alt="" style="width: 380px; height: 200px; "><span><img src="print1.png" alt="" style="width: 500px; height: 400px;"></span></a>
+<a class="thumb" href="#"><img src="print2.png" alt="" style="width: 380px; height: 200px; "><span><img src="print2.png" alt=""  style="width: 500px; height: 400px;"></span></a>
+<a class="thumb" href="#"><img src="print3.png" alt="" style="width: 380px; height: 200px; "><span><img src="print3.png" alt="" style="width: 500px; height: 400px;"></span></a>
+<a class="thumb" href="#"><img src="print4.png" alt="" style="width: 380px; height: 200px;;"><span><img src="print4.png" alt="" style="width: 500px; height: 400px;"></span></a>
+<a class="thumb" href="#"><img src="print5.png" alt="" style="width: 380px; height: 200px; "><span><img src="print5.png" alt="" style="width: 500px; height: 400px;"></span></a>
+<a class="thumb" href="#"><img src="print6.png" alt="" style="width: 380px; height: 200px;"><span><img src="print6.png" alt="" style="width: 500px; height: 400px;"></span></a>
+</div>
+
+</body>
+</html>

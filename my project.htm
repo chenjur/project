@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Title</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<style>
+			body {
+				background-image: url("bg.jpg");
+}
+			.transbox {
+    			margin: 30px;
+    			background-color: #ffffff;
+    			border: 1px solid black;
+   			 	opacity: 0.6;
+   			    filter: alpha(opacity=60); 
+   			    text-align: center;
+
+			}
+			h1 {
+				text-align: center;
+				border: 1px;
+}
+
+			ul {
+    			list-style-type: none;
+   	            margin: 0;
+    			padding: 0;
+    			background-color: #dddddd;
+    			
+    			overflow: hidden;
+
+}
+
+			li{
+				float: left;
+				
+
+}
+
+			li a{
+				
+				text-align: center;
+				text-transform: capitalize;
+				display: block;
+				color: black;
+				background-color: #dddddd;
+				text-decoration: none;
+				padding: 14px 16px;
+
+
+}
+
+			li a.active {
+				background-color: #4CAF50;
+				color: white;
+				text-decoration: none;
+}
+
+			li a:hover:not(.active) {
+				background-color: #555;
+				color: white;
+				text-decoration: none;
+}
+
+			.active{
+				background-color: #4CAF50;
+}
+
+
+
+				
+		</style>
+			
+			
+			
+	</head>
+
+	<body>
+		<div class="transbox">
+				<h1>This is title</h1>
+		</div>
+
+		<div>
+			<ul>
+				<li><a class="active" href="#home" class="">Home</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#culture">culture</a></li>
+				<li><a href="#history">history</a></li>
+				<li style="float:right"><a href="#about">about</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

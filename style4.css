@@ -1,0 +1,141 @@
+body{
+	background-color: #bada55;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+
+#header {
+	font-family: cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+#header img {
+	height: 350px;
+	width: 700px;
+}
+
+.myinfo {
+
+	background-color: orange;
+	border-radius: 40px;
+	font-family: Cursive;
+	font-size: 20px;
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	
+}
+
+.contact img {
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+
+#email {
+	display: inline-block;
+	float: left;
+
+}
+
+#email img{
+	width: 120px;
+	height: 120px;
+	margin: 190px 70px 20px 100px;
+
+}
+
+
+#pointer img {
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin: 10px 80px 10px 1px;
+}
+
+
+#facebook {
+	display: inline-block;
+	float: left;
+}
+
+#facebook img{
+	
+	width: 120px;
+	height: 120px;	
+	margin-left: 100px;
+	margin-top: 190px;
+	margin-right: 20px;
+}
+
+div.img {
+
+	margin: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 200px;
+}
+
+div.img:hover {
+
+	border: 1px solid #777;
+}
+
+div.img img {
+
+	width: 100%;
+	
+}
+
+div.desc {
+
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+.imghead {
+
+	font-size: 30px;
+	font-family: cursive;
+
+}
+
+#phone {
+	display: inline-block;
+	float: left;
+	margin-right: 300px;
+	margin-top: 40px;
+	margin-left: 150px;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+
+.footer {
+
+	width: 1300px;
+	text-align: center;
+	background-color: gray;
+	float: left;
+	color: white;
+	padding: 10px;
+}
+
+.social {
+	position: fixed;
+	
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+
