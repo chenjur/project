@@ -42,8 +42,9 @@ body {
 	background-color: #f0f0f0;
 }
 .container2 {
-	margin-bottom: 600px;
+	
 	width: 100%;
+	
 }
 
 .container4{
@@ -112,6 +113,17 @@ body {
 
 	text-decoration: none;
 
+}
+
+.fb{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: orange;
+}
+
+.fbhead{
+	font-family: cursive;
+	font-size: 45px;
 }
 
 
